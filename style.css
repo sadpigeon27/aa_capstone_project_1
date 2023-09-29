@@ -1,0 +1,34 @@
+.bc_rich-black {
+    background-color: #0d1821ff;
+    color: azure;
+}
+
+.bc_indigo-dye {
+    background-color: #344966ff;
+}
+
+.bc_powder-blue {
+    background-color: #b4cdedff;
+}
+
+.bc_baby-powder {
+    background-color: #f0f4efff;
+}
+
+.bc_sage {
+    background-color: #bfcc94ff;
+}
+
+.flex {
+    display: flex;
+}
+
+.colors {
+    width: 20%;
+    height: 100dvh;
+}
+
+.mp-0 {
+    margin: 0;
+    padding: 0;
+}
