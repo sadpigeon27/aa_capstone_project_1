@@ -2,11 +2,17 @@
 
 ## Colors
 
-- rich-black: #0d1821ff - for general background;
-- indigo-dye: #344966ff - background for decorative/nav/functional elements;
-- powder-blue: #b4cdedff - font color for headers;
-- baby-powder: #f0f4efff - general font color;
-- sage: #bfcc94ff - color for decorative elements/dividers;
+--rich-black: #0d1321ff;
+--prussian-blue: #1d2d44ff;
+--paynes-gray: #3e5c76ff;
+--silver-lake-blue: #748cabff;
+--eggshell: #f0ebd8ff;
+
+- rich-black: #0d1321ff; - for general background;
+- prussian-blue: #1d2d44ff; - background for decorative/nav/functional elements;
+- paynes-gray: #3e5c76ff; - color for "active" elements;
+- silver-lake-blue: #748cabff; - general font color;
+- eggshell: #f0ebd8ff; - color for decorative elements/dividers;
 
 ## Pages
 

@@ -3,24 +3,44 @@
     color: azure;
 }
 
-.bc_indigo-dye {
-    background-color: #344966ff;
+.bc_prussian-blue {
+    background-color: #1d2d44ff;
 }
 
-.bc_powder-blue {
-    background-color: #b4cdedff;
+.bc_paynes-gray {
+    background-color: #3e5c76ff;
 }
 
-.bc_baby-powder {
-    background-color: #f0f4efff;
+.bc_silver-lake-blue {
+    background-color: #748cabff
 }
 
-.bc_sage {
-    background-color: #bfcc94ff;
+.bc_eggshell {
+    background-color: #f0ebd8ff;
+}
+
+.c_eggshell {
+    color: #f0ebd8ff;
+}
+
+a {
+    color: inherit;
 }
 
 .flex {
     display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.jc_space_around {
+    justify-content: space-around;
+}
+
+.jc_center {
+    justify-content: center;
 }
 
 .colors {
@@ -31,4 +51,34 @@
 .mp-0 {
     margin: 0;
     padding: 0;
+}
+
+.header-top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4em 0;
+}
+
+.header-top-logo {
+    height: 5em;
+    width: auto;
+    display: block;
+    margin-right: 1.5ch;
+}
+
+.header-top-logo-text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 4em;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.3em #0d1821ff solid;
+    font-size: 1.6em;
+    padding: 0.3em 0;
 }
