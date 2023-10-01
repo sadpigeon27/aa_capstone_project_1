@@ -47,6 +47,13 @@ hr {
     padding: 0;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100dvh;
+}
+
 /* ---Header Styles--- */
 
 .header-top {
@@ -61,12 +68,24 @@ hr {
     margin: 0.3rem;
 }
 
+.header-top-logo-span {
+    background-image: url(./images/screaming-cropped.jpg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 100%;
+    margin-right: 1.5ch;
+}
+
 .header-top-logo {
     height: 5em;
     width: auto;
     display: block;
-    margin-right: 1.5ch;
     border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+.header-top-logo:active {
+    opacity: 0;
 }
 
 .header-top-logo-text {
@@ -133,11 +152,21 @@ hr {
 
 footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1em 2em;
+    flex-grow: 1;
+    justify-self: flex-end;
+    align-items: flex-end;
+    margin-top: 2em;
+    padding: 1em;
     font-family: sans-serif;
     font-size: 0.9rem;
+}
+
+.footer-container {
+    display: flex;
+    width: 100dvw;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
 }
 
 span.footer-msg {
@@ -179,10 +208,9 @@ img.profile-pic {
 main {
     background-color: #1d2d44ff;
     border-radius: 0.8rem;
-    max-width: 70rem;
+    width: 70rem;
     margin: 0.3rem auto;
     box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -196,11 +224,86 @@ img.title-image {
     padding: 0 1em 1em 1em;
 }
 
-.cat-h2 {
-}
-
 .cat-p {
     padding-left: 2em;
     font-size: large;
     font-family: sans-serif;
 }
+
+/* ---Form Styles--- */
+
+
+.form-thoughts_legend {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-thoughts_fieldset {
+    text-align: center;
+    margin: 2em auto 0;
+    padding: 2em;
+    border-color: #3e5c76ff;
+    border-width: 0.6ch;
+    border-radius: 0.8rem;
+    width: fit-content;
+}
+
+.labled-inp {
+    margin-bottom: 0.6em;
+}
+
+.labled-chk {
+    margin: 1em 0;
+}
+
+.labled-inp label {
+    display: block;
+    margin-bottom: 0.6ch;
+
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#ta-thoughts {
+    resize: none;
+    width: 45ch;
+}
+
+.form-note {
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 2em;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.inp-text,#ta-thoughts {
+    background-color: rgb(47, 70, 90);
+    color: #f0ebd8ff;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.6ch 1.1ch;
+    transition-duration: 0.1s;
+}
+
+.inp-text:focus,#ta-thoughts:focus {
+    outline: none;
+    border: none;
+    background-color: rgb(60, 89, 114);
+}
+
+/* ---Link Styles--- */
+
+.link-container {
+    text-align: center;
+}
+
+.link-container ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+/* ---Picture Styles--- */
