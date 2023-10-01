@@ -1,6 +1,5 @@
 .bc_rich-black {
     background-color: #0d1821ff;
-    color: azure;
 }
 
 .bc_prussian-blue {
@@ -32,6 +31,12 @@ h1 {
     margin: 0;
 }
 
+
+hr {
+    width: 95%;
+    border-width: 0.07rem;
+}
+
 .colors {
     width: 20%;
     height: 100dvh;
@@ -50,9 +55,10 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 0.4em 0;
-    border: 0.3rem #0d1821ff solid;
     border-radius: 0.8rem;
     min-width: 20rem;
+    box-sizing: border-box;
+    margin: 0.3rem;
 }
 
 .header-top-logo {
@@ -75,14 +81,13 @@ h1 {
 .header-nav {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    border: 0.3rem #0d1821ff solid;
     border-radius: 0.8rem;
     font-size: 1.6em;
-    max-width: 50rem;
+    max-width: 70rem;
     min-width: 20rem;
-    margin: 0 auto;
+    margin: 0.3rem auto;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .nav-sub-div {
@@ -167,9 +172,35 @@ img.profile-pic {
     width: auto;
     border-radius: 100%;
     margin-right: 0.7ch;
-
 }
 
-span.profile-name {
+/* ---Main Styles--- */
 
+main {
+    background-color: #1d2d44ff;
+    border-radius: 0.8rem;
+    max-width: 70rem;
+    margin: 0.3rem auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+img.title-image {
+    border-radius: 0.8rem;
+}
+
+.cat-article {
+    padding: 0 1em 1em 1em;
+}
+
+.cat-h2 {
+}
+
+.cat-p {
+    padding-left: 2em;
+    font-size: large;
+    font-family: sans-serif;
 }

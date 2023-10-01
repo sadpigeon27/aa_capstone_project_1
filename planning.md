@@ -11,8 +11,8 @@
 - rich-black: #0d1321ff; - for general background;
 - prussian-blue: #1d2d44ff; - background for decorative/nav/functional elements;
 - paynes-gray: #3e5c76ff; - color for "active" elements;
-- silver-lake-blue: #748cabff; - general font color;
-- eggshell: #f0ebd8ff; - color for decorative elements/dividers;
+- silver-lake-blue: #748cabff; - decorations
+- eggshell: #f0ebd8ff; - general font color
 
 ## Pages
 
