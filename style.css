@@ -248,8 +248,8 @@ img.title-image {
 .form-thoughts_fieldset {
     text-align: center;
     margin: 2em auto;
-    width: 19rem;
-    padding: 2em;
+    width: clamp(5rem, 80%, 30rem);
+    padding: 1.5em 0.2em;
     border-color: #3e5c76ff;
     border-width: 0.6ch;
     border-radius: 0.8rem;
@@ -276,7 +276,7 @@ label {
 
 #ta-thoughts {
     resize: none;
-    width: 45ch;
+    width: 40ch;
 }
 
 .form-note {
@@ -320,8 +320,8 @@ label {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 4ch;
-    column-gap: 3em;
+    row-gap: 40px;
+    column-gap: 5%;
     padding: 3em;
 }
 
