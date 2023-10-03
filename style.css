@@ -243,12 +243,13 @@ img.title-image {
 .form-thoughts_legend {
     font-size: 2em;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 .form-thoughts_fieldset {
     text-align: center;
     margin: 2em auto;
-    width: clamp(5rem, 80%, 30rem);
+    width: clamp(5rem, 80%, 40rem);
     padding: 1.5em 0.2em;
     border-color: #3e5c76ff;
     border-width: 0.6ch;
