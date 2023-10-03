@@ -319,7 +319,7 @@ label {
 
 .image-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 40px;
     column-gap: 5%;
@@ -332,19 +332,14 @@ label {
 }
 
 .cat-pic-span {
-    grid-column: span 2;
     height: fit-content;
     text-align: center;
     font-size: 0.7em;
     font-style: italic;
 }
 
-.cat-pic-bottom-1 {
-    grid-column: 2 / span 2;
-}
-
-.cat-pic-bottom-2 {
-    grid-column: 4 / span 2;
+.cat-pic-bottom {
+    grid-column-start: 2;
 }
 
 .cat-pic {
